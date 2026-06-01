@@ -1,4 +1,5 @@
-import { log } from './utils/logger';\nimport { useState, useEffect } from 'react';
+import { log } from './utils/logger';
+import { useState, useEffect } from 'react';
 import { Smartphone, Database, ShieldAlert, Cpu } from 'lucide-react';
 
 export default function NetworkGraph() {
