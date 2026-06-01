@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react';
+import { log } from './utils/logger';\nimport { useState, useEffect } from 'react';
 import { Smartphone, Database, ShieldAlert, Cpu } from 'lucide-react';
 
 export default function NetworkGraph() {
   const [phase, setPhase] = useState(0);
 
   const startExploit = () => {
-    setPhase(1); // Start payload
+    log('Exploit Started'); setPhase(1);
     setTimeout(() => setPhase(2), 1000); // Hit IPC
     setTimeout(() => setPhase(3), 2000); // Hit Target App
     setTimeout(() => setPhase(4), 3000); // RCE Success
