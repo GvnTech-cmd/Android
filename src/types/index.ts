@@ -1,1 +1,5 @@
-export interface IDummy {}
+
+export interface BadgeProps {
+  label: string;
+  type: 'critical' | 'info';
+}
