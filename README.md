@@ -12,8 +12,10 @@
                                           
 ```
 
-**Course:** ResearchLab Capture The Flag
-**Researcher:** Antigravity AI
+**Department:** Bilişim Güvenliği Teknolojileri
+**Course Code:** BGT006
+**Course Name:** Sızma Testi
+**Instructor:** Keyvan Arasteh Abbasabad
 
 [![Vulnerability](https://img.shields.io/badge/CVE-Hypothetical--XXXX-red?style=for-the-badge)](https://github.com/)
 [![Target](https://img.shields.io/badge/Target-Android%20Binder%20IPC-blue?style=for-the-badge)](https://github.com/)
