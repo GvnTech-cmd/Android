@@ -1,3 +1,6 @@
+import { useState } from 'react'
+import NetworkGraph from './NetworkGraph'
+
 function App() {
 
   return (
@@ -30,6 +33,8 @@ function App() {
           </ul>
         </div>
       </div>
+
+      <NetworkGraph />
 
       <div className="glass-panel">
         <h2>3. Remediation (Hardening)</h2>
