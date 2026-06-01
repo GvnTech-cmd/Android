@@ -33,12 +33,12 @@ export default function NetworkGraph() {
           <span className="node-label">Attacker</span>
         </div>
 
-        <div className={\`node \${phase >= 2 ? 'hacked' : ''}\`}>
+        <div className={`node ${phase >= 2 ? 'hacked' : ''}`}>
           <Cpu size={32} />
           <span className="node-label">Binder IPC</span>
         </div>
 
-        <div className={\`node \${phase >= 3 ? 'hacked' : ''}\`}>
+        <div className={`node ${phase >= 3 ? 'hacked' : ''}`}>
           <Database size={32} />
           <span className="node-label">Target App</span>
         </div>
