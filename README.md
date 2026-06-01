@@ -67,4 +67,4 @@ npm install
 npm run dev
 # Go to http://localhost:5173
 ```
-\n\n## 📄 License\nThis project is for academic purposes only.\n\n## 🤝 Contributing\nFeel free to open a PR!\n
+\n\n## 📄 License\nThis project is for academic purposes only.\n\n## 🤝 Contributing\nFeel free to open a PR!\n\n## 🛠️ Stack\n- React\n- Vite\n- TypeScript\n
