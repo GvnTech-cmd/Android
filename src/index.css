@@ -205,4 +205,4 @@ code {
   background: rgba(0, 243, 255, 0.1);
   box-shadow: 0 0 15px rgba(0, 243, 255, 0.4);
 }
-\n.glass-panel h2 { display: flex; align-items: center; }\n\n.glass-panel p { line-height: 1.6; }\n
+\n.glass-panel h2 { display: flex; align-items: center; }\n\n.glass-panel p { line-height: 1.6; }\n\n/* Custom Scrollbar */\n::-webkit-scrollbar { width: 8px; }\n::-webkit-scrollbar-track { background: var(--bg-color); }\n::-webkit-scrollbar-thumb { background: var(--neon-blue); border-radius: 4px; }\n
