@@ -106,3 +106,102 @@ code {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.network-graph-container {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.network-nodes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  min-height: 200px;
+}
+
+.node {
+  background: var(--glass-bg);
+  border: 2px solid var(--glass-border);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.node svg {
+  color: var(--neon-blue);
+  margin-bottom: 5px;
+}
+
+.node.hacked {
+  border-color: var(--neon-red);
+  box-shadow: 0 0 20px rgba(255, 0, 60, 0.5);
+}
+
+.node.hacked svg {
+  color: var(--neon-red);
+}
+
+.node-label {
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.edge {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  right: 15%;
+  height: 4px;
+  background: var(--glass-border);
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.payload-packet {
+  position: absolute;
+  top: -6px;
+  width: 16px;
+  height: 16px;
+  background: var(--neon-red);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--neon-red);
+  transition: left 1s linear;
+  z-index: 3;
+}
+
+.controls {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.btn-cyber {
+  background: transparent;
+  color: var(--neon-blue);
+  border: 1px solid var(--neon-blue);
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.btn-cyber:hover {
+  background: rgba(0, 243, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 243, 255, 0.4);
+}
