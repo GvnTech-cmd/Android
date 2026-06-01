@@ -206,3 +206,36 @@ code {
   box-shadow: 0 0 15px rgba(0, 243, 255, 0.4);
 }
 \n.glass-panel h2 { display: flex; align-items: center; }\n\n.glass-panel p { line-height: 1.6; }\n\n/* Custom Scrollbar */\n::-webkit-scrollbar { width: 8px; }\n::-webkit-scrollbar-track { background: var(--bg-color); }\n::-webkit-scrollbar-thumb { background: var(--neon-blue); border-radius: 4px; }\n
+.phase-indicator {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+.phase-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+}
+.phase-step.active {
+  opacity: 1;
+}
+.phase-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--neon-blue);
+  box-shadow: 0 0 8px var(--neon-blue);
+}
+.phase-step.active .phase-dot {
+  background: var(--neon-red);
+  box-shadow: 0 0 12px var(--neon-red);
+}
+.phase-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
