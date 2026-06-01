@@ -67,3 +67,4 @@ npm install
 npm run dev
 # Go to http://localhost:5173
 ```
+\n\n## 📄 License\nThis project is for academic purposes only.\n
