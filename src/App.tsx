@@ -8,6 +8,7 @@ import Remediation from './components/Remediation';
 import Scripts from './components/Scripts';
 import NetworkGraph from './NetworkGraph';
 import Footer from './components/Footer';
+import MermaidDiagram from './components/MermaidDiagram';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <NetworkGraph />
       <Remediation />
       <Scripts />
+      <MermaidDiagram />
       <Footer />
     </div>
   );
