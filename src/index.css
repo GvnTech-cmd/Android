@@ -252,3 +252,21 @@ code {
   white-space: pre;
   line-height: 1.4;
 }
+
+@media (max-width: 480px) {
+  .cyber-title {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+  .dashboard-container {
+    padding: 1rem;
+  }
+  .node {
+    width: 60px;
+    height: 60px;
+  }
+  .badge {
+    font-size: 0.65rem;
+    padding: 0.2rem 0.5rem;
+  }
+}
