@@ -7,6 +7,7 @@ import AttackVector from './components/AttackVector';
 import Remediation from './components/Remediation';
 import Scripts from './components/Scripts';
 import NetworkGraph from './NetworkGraph';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <NetworkGraph />
       <Remediation />
       <Scripts />
+      <Footer />
     </div>
   );
 }
