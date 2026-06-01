@@ -270,3 +270,14 @@ code {
     padding: 0.2rem 0.5rem;
   }
 }
+
+@keyframes neonPulse {
+  0%, 100% { box-shadow: 0 0 5px var(--neon-blue), 0 0 10px rgba(0, 243, 255, 0.3); }
+  50% { box-shadow: 0 0 15px var(--neon-blue), 0 0 30px rgba(0, 243, 255, 0.5); }
+}
+
+.cyber-title {
+  animation: neonPulse 3s ease-in-out infinite;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
