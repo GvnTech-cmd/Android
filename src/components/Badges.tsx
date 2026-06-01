@@ -7,6 +7,6 @@ export default function Badges() {
       <span className="badge badge-critical">CVSS: {CVSS_SCORE}</span>
       <span className="badge badge-info">Target: {TARGET_NAME}</span>
       <span className="badge badge-critical">Vector: {VECTOR_NAME}</span>
-    </div>
+      <span className="badge badge-info">Level: Advanced</span>\n    </div>
   );
 }
