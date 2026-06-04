@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://istinye.edu.tr">
-    <img src="https://upload.wikimedia.org/wikipedia/tr/6/6f/Istinye_Universitesi_logo.png" alt="İstinye Üniversitesi" width="180"/>
+    <img src="docs/assets/istinye-university-logo.png" alt="İstinye Üniversitesi" width="180"/>
   </a>
 
   # Android IPC SecOps Dashboard
@@ -25,8 +25,8 @@
 ### Öğrenci Bilgisi
 | | |
 |---|---|
-| **Ad Soyad** | [Adınız Soyadınız] |
-| **Öğrenci No** | [İlk 4]****[Son 4] |
+| **Ad Soyad** | Güven Şahin |
+| **Öğrenci No** | 2520****1018 |
 
 ### Ders Bilgileri
 | | |
