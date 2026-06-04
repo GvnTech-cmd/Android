@@ -27,6 +27,13 @@
 
 ---
 
+## 📄 Vulnerability Reports (Teslimler)
+Hocanın talep ettiği hedef sistem analiz ve değerlendirme raporları:
+- 📊 **[Vulnerability Assessment Report](reports/Vulnerability_Assessment_Report.md)** *(CVE eşleştirme, Risk Matrisi, Düzeltme Önerileri)*
+- 🟢 **[Simulated Nessus Scan Results](reports/Nessus_Scan_Results.csv)** *(Nessus/OpenVAS Tarama Çıktısı)*
+
+---
+
 ## 📑 1. Abstract (Proje Özeti)
 
 Bu akademik proje, Android ekosistemindeki Inter-Process Communication (IPC) ve Binder üzerinden gerçekleşen kritik **Deserialization RCE (Uzaktan Kod Çalıştırma)** zafiyetinin çok boyutlu teknik analizini simüle eder.
